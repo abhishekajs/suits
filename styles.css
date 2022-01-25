@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
-body, .header-container, .header-stuff, .header, .header ul, .header-content{
+body, .header-container, .header-stuff, .header, .header ul, .header-content, .main ul{
     display: flex;
 }
 
@@ -93,4 +93,53 @@ li a{
     border-radius: 24px;
     border: 1px solid rgb(7, 1, 1);
     box-shadow: 2px 2px 4px #437fd4;
+}
+
+.list-header{
+    text-align: center;
+    margin: 2rem 0 -10px 0;
+    font-size: 48px;
+    font-weight: 500;
+    color:rgb(5, 47, 75);
+    text-shadow: 0 1px 4px rgba(68, 68, 68, 0.829);
+}
+
+.card-container img{
+    width: 250px;
+    height: 325px;
+}
+
+.main{
+    background: rgb(224, 224, 221);
+}
+
+.main ul{
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.card-container{
+    background-color: #aaa;
+    width: 250px;
+    border: 2px solid grey;
+    box-shadow: 2px 0 8px rgb(11, 6, 29);
+    border-radius: 4px;
+}
+
+#type-head{
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(5, 47, 75);
+}
+
+#type-para{
+    padding: 0 18px;
+    color: rgb(5, 47, 75);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align: justify;
+    text-justify: inter-word;
 }
